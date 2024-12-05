@@ -1,0 +1,42 @@
+http://localhost:8080/api/usuarios
+
+{
+  "nome": "Carol",
+  "email": "carol@gmail.com",
+  "senha": "novaSenham"
+}
+
+http://localhost:8080/api/locais-esportivos
+http://localhost:8080/api/locais-esportivos/1
+
+{
+    "nome": "Arena Futebol 1",
+    "endereco": "Rua das Palmeiras, 100",
+    "tipoEsporte": "Futebol",
+    "disponibilidade": false
+}
+
+http://localhost:8080/api/reservas
+
+{
+    "dataReserva": "2024-03-25T15:00:00",
+    "status": "pendente",
+    "usuarioId": 1,
+    "localEsportivoId": 1
+}
+
+http://localhost:8080/api/anfitrioes
+
+{
+    "nome": "João Silva",
+    "email": "joao@email.com",
+    "senha": "123456"
+}
+
+{
+    "nome": "Maria Santos",
+    "email": "maria@email.com",
+    "senha": "123456",
+    "telefone": "85999999999",
+    "endereco": "Rua A, 123"
+}
